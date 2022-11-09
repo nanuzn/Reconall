@@ -20,7 +20,7 @@ cat /home/kali/Desktop/$1/subdomain.txt /home/kali/Desktop/$1/sublister.txt | so
 ###Sorting 200 only domians
 cat /home/kali/Desktop/$1/All_subdomains.txt| httpx -match-code 200 | tee -a /home/kali/Desktop/$1/200_subdomains.txt
 
-###Sorting 200 only domians
+###Sorting 404 only domians
 cat /home/kali/Desktop/$1/All_subdomains.txt| httpx -match-code 404 | tee -a /home/kali/Desktop/$1/404_subdomains.txt
 
 ###Subdomain Takeover
